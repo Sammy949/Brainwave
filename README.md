@@ -2,7 +2,7 @@
 
 Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
 
-## 📋 `<a name="table">`Table of Contents `</a>`
+## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
@@ -50,7 +50,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone "Don't forget to insert the git link once deployed"
+git clone https://github.com/Sammy949/Brainwave.git
 cd brainwave
 ```
 
@@ -69,3 +69,5 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+---
+Good Luck and Enjoy the project.
