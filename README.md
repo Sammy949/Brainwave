@@ -1,4 +1,4 @@
-# Brainwave
+# Brainwave [![Netlify Status](https://api.netlify.com/api/v1/badges/ac8ec1ba-8255-4add-8b99-46f275fa4d24/deploy-status)](https://app.netlify.com/sites/brainwave-01/deploys)
 
 Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
 
