@@ -17,18 +17,19 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
-      enablePageScroll()
+      enablePageScroll();
     } else {
       setOpenNavigation(true);
-      disablePageScroll()
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
-    if(!openNavigation) return;
+    if (!openNavigation) return;
 
-    enablePageScroll()
-    setOpenNavigation(false);}
+    enablePageScroll();
+    setOpenNavigation(false);
+  };
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
@@ -51,7 +52,7 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 -colors hover:text-color-1 ${
+                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
