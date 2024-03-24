@@ -67,6 +67,7 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitImage1 from "./benefits/image-1.png";
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -138,6 +139,7 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitImage1,
   benefitImage2,
   discordBlack,
   facebook,
